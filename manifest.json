@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Better HacknPlan",
+    "version": "1.0",
+
+    "description": "Makes your free HacknPlan UI look better.",
+	"content_scripts": [
+		{
+			"matches": ["*://app.hacknplan.com/*"],
+			"js": ["beautify.js"]
+		}
+	]
+}
